@@ -1,0 +1,59 @@
+.appContainer {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    width: 400px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: sans-serif;
+}
+
+.appContainer h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.appContainer form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: -10px;
+}
+
+.appContainer input[type="text"] {
+    flex: 1;
+    padding: 10px 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 15px;
+    transition: all 0.2s ease;
+}
+
+.appContainer input[type="text"]:focus {
+    border-color: #777;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(100, 100, 100, 0.15);
+}
+
+.appContainer .addBtn {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    background: black;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.15s ease, background 0.2s ease;
+}
+
+.appContainer .addBtn:hover {
+    background: #333;
+}
+
+.appContainer .addBtn:active {
+    transform: scale(0.95);
+}

@@ -1,0 +1,44 @@
+.todoItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 15px;
+  margin-bottom: 10px;
+  background: #eee;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: background 0.2s;
+}
+
+.todoItem p {
+  max-width: 200px;
+  word-wrap: break-word;
+}
+
+.todoItem:hover {
+  background: #ddd;
+}
+
+.todoItem button {
+  background: transparent;
+  color: black;
+  border: none;
+  padding: 6px 10px;
+  margin-left: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.todoMain {
+  display: flex;
+  gap: 8px;
+}
+
+.todoItem:has(.todoMain input[type="checkbox"]:checked) {
+  background-color: #ccc;
+}
+
+.todoMain input[type="checkbox"] {
+  accent-color: black;
+}
