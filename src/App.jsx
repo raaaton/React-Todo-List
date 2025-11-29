@@ -16,10 +16,6 @@ export default function App() {
         setTodoItems([...todoItems].filter((item) => item.id != id));
     }
 
-    function editTodoItem(id) {
-        setTodoItems([...todoItems].filter((item) => item.id != id));
-    }
-
     function handleNewTodo(formData) {
         const todoText = formData.get("query");
         if (todoText) {
