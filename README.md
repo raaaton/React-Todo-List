@@ -6,7 +6,7 @@ A simple and lightweight Todo List application built with **React**, featuring t
 
 ## 🌐 Live Demo
 
-You can access the project directly [here](https://react-todo-list-raton.vercel.app)
+You can access the project directly [here](https://raton-react-todo-list.vercel.app)
 
 ---
 
